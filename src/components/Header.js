@@ -2,22 +2,24 @@ import React from "react";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import HeaderIcon from '../assets/header-icon.gif'
+import { Link } from "react-router-dom";
+
 
 export default function Header() {
   return (
     <header className="header">
-        <a className="button" href="/michelletapham/blog">
+        <a className="button" href="/blog">
           <img className= "header-icon" src={HeaderIcon} alt ="Spirited Away Letter"/>
           <h4><span role="img" aria-label="sparkle-emoji">✨</span> relaxmich</h4>
         </a>
         <Navbar className="justify-content-center">
           <Nav>
-              <Nav.Link href="/michelletapham">home</Nav.Link>
-              <Nav.Link href="/michelletapham/blog">blog</Nav.Link>
-              <Nav.Link href="/michelletapham/photo">photo</Nav.Link>
-              <Nav.Link href="/michelletapham/currents">currents</Nav.Link>
-              <Nav.Link href="/michelletapham/moodboard">moodboard</Nav.Link>
-              <Nav.Link href="/michelletapham/about">about</Nav.Link>
+            <Link to="/">home</Link>
+            <Link to="/blog">blog</Link>
+            <Link to="/photo">photo</Link>
+            <Link to="/currents">currents</Link>
+            <Link to="/moodboard">moodboard</Link>
+            <Link to="/about">about</Link>
           </Nav>
         </Navbar>
     </header>

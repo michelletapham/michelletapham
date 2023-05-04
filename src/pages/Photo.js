@@ -11,7 +11,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 export default class Photo extends PureComponent {
     render() {
       return (
-        <div className="photo">
+        <div className="photo fadeInUp-animation">
           <Container>
             <Row>
               <Header />

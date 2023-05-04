@@ -12,7 +12,7 @@ import Row from 'react-bootstrap/Row';
 export default class Moodboard extends PureComponent {
     render() {
       return (
-        <div className="moodboard">
+        <div className="moodboard fadeInUp-animation">
             <Container>
                 <Row>
                     <Header />

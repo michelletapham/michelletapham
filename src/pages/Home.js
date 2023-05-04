@@ -7,12 +7,13 @@ import { TypeAnimation } from 'react-type-animation';
 
 import totoroLoading from '../assets/totoro-loading.gif'
 import homeVideo from '../assets/home-video.mp4'
+import { Link } from "react-router-dom";
 
 
 export default class Home extends PureComponent {
     render() {
       return (
-        <div className="home">
+        <div className="home fadeInUp-animation">
           <Container>
             <Row>
               <Col>
@@ -40,7 +41,7 @@ export default class Home extends PureComponent {
                 <Row>
                   <Col lg={5}/>
                   <Col lg={7}>
-                    <a href="/michelletapham/blog" className="btn-enter">Come On In!</a>
+                    <Link className="btn-enter" to="/blog">Come On In!</Link>
                     <img className="totoro-gif" src={totoroLoading} alt ="totoro walking" />
                   </Col>
                 </Row>

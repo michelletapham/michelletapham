@@ -10,7 +10,7 @@ import Row from 'react-bootstrap/Row';
 export default class Currents extends PureComponent {
     render() {
       return (
-        <div className="currents">
+        <div className="currents fadeInUp-animation">
             <Container>
                 <Row>
                     <Header/>

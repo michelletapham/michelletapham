@@ -11,7 +11,7 @@ import { TypeAnimation } from "react-type-animation";
 export default class About extends PureComponent {
     render() {
       return (
-        <div className="about">
+        <div className="about fadeInUp-animation">
           <Container>
             <Row>
               <Header/>

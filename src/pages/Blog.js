@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 export default class Blog extends PureComponent {
     render() {
       return (
-        <div className="currents">
+        <div className="blog fadeInUp-animation">
             <Container>
                 <Row>
                     <Header/>
