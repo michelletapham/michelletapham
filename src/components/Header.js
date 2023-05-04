@@ -8,7 +8,7 @@ export default function Header() {
     <header className="header">
         <a className="button" href="/michelletapham/blog">
           <img className= "header-icon" src={HeaderIcon} alt ="Spirited Away Letter"/>
-          <h4>relaxmich</h4>
+          <h4><span role="img" aria-label="sparkle-emoji">✨</span> relaxmich</h4>
         </a>
         <Navbar className="justify-content-center">
           <Nav>

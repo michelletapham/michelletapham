@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Images from '../data/Images';
@@ -32,7 +33,10 @@ export default class Photo extends PureComponent {
                     </ImageListItem>
                   ))}
                 </ImageList>
-            </Row>      
+            </Row>     
+            <Row>
+              <Footer/>
+            </Row> 
           </Container>
         </div>
       );

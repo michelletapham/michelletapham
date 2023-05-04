@@ -3,7 +3,7 @@
 }
 
 .app {
-    padding: 5em 7em 5em 7em;
+    padding: 5em 7em 2em 7em;
 }
 
 .header {
@@ -110,10 +110,6 @@
     padding-bottom: 3em;
 }
 
-.about h2 {
-    color: #7373E3;
-}
-
 .about .bio {
     margin-top: 3em;
 }
@@ -127,6 +123,21 @@
     height: auto;
     margin: auto;
     display: flex;
+}
+
+.footer {
+    padding-top: 5em;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color:pink;
 }
 
 @keyframes fadeInUp {

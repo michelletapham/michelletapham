@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import AboutPhoto from "../assets/about-photo.jpg"
 import { TypeAnimation } from "react-type-animation";
 
@@ -21,7 +22,7 @@ export default class About extends PureComponent {
               </Col>
               <Col lg={7}>
                 <Row className="bio">
-                  <h2>Hello, Michelle here!</h2>
+                  <h2><span role="img" aria-label="handwave-emoji">👋🏼</span> Hello ... Michelle here!</h2>
                   <p className="subtext">(brownie points if you understood that reference)</p>
                   <p>
                     Who am I? Well I would say I'm a &nbsp;  
@@ -59,6 +60,9 @@ export default class About extends PureComponent {
                   </i>
                 </Row>
               </Col>
+            </Row>
+            <Row>
+              <Footer/>
             </Row>
           </Container>
         </div>
