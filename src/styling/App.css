@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    padding: 5em 7em 5em 7em;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h4 {
+    margin-bottom: 0em;
+}
+
+.header .header-icon {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.header .button:hover {
+    opacity: calc(.50);
+}
+
+.header .button {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar .nav-link {
+    color: black;
+    text-decoration: none;
+    margin-right: .5em;
+}
+
+
+.navbar .nav-link:hover, .home .btn-enter:hover {
+    text-decoration: underline;
+}
+
+.navbar .nav-link:active, .home .btn-enter:hover {
+    color: grey;
+}
+
+
+.home {
+    padding-top: 5.5em;
+}
+
+.home .home-header {
+    padding-top: 7em;
+    padding-bottom: 2em;
+}
+
+.home .home-header h1, .about h2, .photo .header h4, .header h4 {
+    font-weight: bold;
+}
+
+.home .home-video {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.home .btn-enter {
+    color: black;
+    text-decoration: none;
+}
+
+.home .totoro-gif {
+    height: auto;
+    width: 80px;
+}
+
+.photo .header {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.photo .header h4 {
+    margin-bottom: 0.5em;
+}
+
+.blog, .currents, .moodboard {
+    text-align: center;
+}
+
+.blog .content, .moodboard .content, .currents .content {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.message .totoro {
+    height: 250px;
+    width: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.about .content {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.about h2 {
+    color: #7373E3;
+}
+
+.about .bio {
+    margin-top: 3em;
+}
+
+.about .content .subtext {
+    font-size: 12px;
+}
+
+.about .about-photo {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(3%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+.fadeInUp-animation {
+    animation: 1.0s fadeInUp;
+}
