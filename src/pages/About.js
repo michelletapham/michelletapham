@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AboutPhoto from "../assets/about-photo.jpg"
+import Signature from "../assets/signature.png"
 import { TypeAnimation } from "react-type-animation";
 
 
@@ -18,7 +19,7 @@ export default class About extends PureComponent {
             </Row>
             <Row className="content">
               <Col lg={5}>
-                <img className="about-photo" src={AboutPhoto} alt="Michelle Pham" />
+                <img className="about-photo" src={AboutPhoto} alt="Michelle" />
               </Col>
               <Col lg={7}>
                 <Row className="bio">
@@ -53,7 +54,7 @@ export default class About extends PureComponent {
                     a low-pressure environment. If you somehow ended up here ... I see you peeping!
                   </p>
                   <p>Have fun browsing! :)</p>
-                  <p>- Michelle</p>
+                  <img className="signature-img" src={Signature} alt="Signature"/>
                   <i>
                     P.S. I was originally going to build this website using Squarespace until I saw that price ($17/month).
                     Instead, I decided to use my college degree to use and build this site out with React.js (shoutout INFO340 for the skills)!

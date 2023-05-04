@@ -109,6 +109,13 @@
     padding-bottom: 3em;
 }
 
+.about .signature-img {
+    width: 13em;
+    height: 4.25em;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
 .about .bio {
     margin-top: 3em;
 }
