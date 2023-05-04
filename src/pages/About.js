@@ -45,15 +45,18 @@ export default class About extends PureComponent {
                   </p>
                   <p>
                     After 22 years growing up in Seattle, Washington, I left my hometown and my
-                    close friends/family to move down and start over 1,100+ miles south to Los Angeles, California. 
+                    close friends/family to move down 1,100+ miles south and start over in Los Angeles, California. 
                   </p>
                   <p>
-                    I decided to create this website because I wanted to document my life, creative projects, unfiltered thoughts in 
+                    I decided to create this website because I wanted to document my life, ongoing projects, unfiltered thoughts in 
                     a low-pressure environment. If you somehow ended up here ... I see you peeping!
-                    As I'm creating this, I will say it's been fun brushing up on some web development as well (shoutout info340). 
                   </p>
-                  <p>Cheers,</p>
-                  <p>Michelle</p>
+                  <p>Have fun browsing! :)</p>
+                  <p>- Michelle</p>
+                  <i>
+                    P.S. I was originally going to build this website using Squarespace until I saw that price ($17/month).
+                    Instead, I decided to use my college degree to use and build this site out with React.js (shoutout INFO340 for the skills)!
+                  </i>
                 </Row>
               </Col>
             </Row>

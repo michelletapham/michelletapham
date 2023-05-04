@@ -6,7 +6,7 @@ import HeaderIcon from '../assets/header-icon.gif'
 export default function Header() {
   return (
     <header className="header">
-        <a className="button" href="/blog">
+        <a className="button" href="/michelletapham/blog">
           <img className= "header-icon" src={HeaderIcon} alt ="Spirited Away Letter"/>
           <h4>relaxmich</h4>
         </a>
