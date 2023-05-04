@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header className="header">
-        <a className="button" href="/blog">
+        <Link className="button" to="/blog">
           <img className= "header-icon" src={HeaderIcon} alt ="Spirited Away Letter"/>
           <h4><span role="img" aria-label="sparkle-emoji">✨</span> relaxmich</h4>
-        </a>
+        </Link>
         <Navbar className="justify-content-center">
           <Nav>
             <Link to="/">home</Link>
