@@ -37,7 +37,7 @@ export default class About extends PureComponent {
                         1000,
                         '...amateur photographer',
                         1000,
-                        '...good human',
+                        '...good human.',
                         1000,
                       ]}
                       speed={50}
