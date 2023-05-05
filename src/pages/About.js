@@ -19,12 +19,12 @@ export default class About extends PureComponent {
               <Header/>
             </Row>
             <Row className="content">
-              <Col xl={6}>
+              <Col xl={5}>
                 <img className="about-photo" src={AboutPhoto} alt="Michelle" />
                 <br/>
                 <Spotify className="spotify" link="https://open.spotify.com/playlist/359q7MDjfHwdw3U8qXHucW?si=ce555728d4384a22" />
               </Col>
-              <Col xl={6}>
+              <Col xl={7}>
                 <Row className="bio">
                   <h2><span role="img" aria-label="handwave-emoji">👋🏼</span> Hello ... Michelle here!</h2>
                   <p className="subtext">(brownie points if you understood that reference)</p>

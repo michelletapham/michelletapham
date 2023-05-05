@@ -109,6 +109,9 @@
     margin-bottom: -5em;
 }
 
+.about .bio {
+    margin-top: .5em;
+}
 
 .about .signature-img {
     width: 13em;
@@ -121,16 +124,16 @@
     font-size: 12px;
 }
 
-
 .about .about-photo {
-    height: 20em;
-    width: auto;
+    height: auto;
+    width: 28em;
     object-fit: cover;
+    border-radius: 1%;
 }
 
 .about .spotify {
-    width: 30em;
-    height: 20em;
+    width: 28em;
+    height: 18em;
     display: block;
 }
 
