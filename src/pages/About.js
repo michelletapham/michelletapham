@@ -1,14 +1,15 @@
 import React, { PureComponent } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { SocialIcon } from 'react-social-icons';
+import { Spotify } from "react-spotify-embed";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from "../components/Header";
-import Currents from "./Currents";
 import Footer from "../components/Footer";
 import AboutPhoto from "../assets/michelle-cafe.jpg"
 import Signature from "../assets/signature.png"
+
 
 
 export default class About extends PureComponent {
@@ -63,9 +64,6 @@ export default class About extends PureComponent {
                     Instead, I decided to use my college degree to use and build this site out with React.js (shoutout INFO340 for the skills)!</i>
                 </Row>
               </Col>
-            </Row>
-            <Row>
-              <Currents/>
             </Row>
             <Row>
               <Footer/>

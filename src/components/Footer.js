@@ -7,7 +7,6 @@ export default function Footer() {
     <footer className="footer">
         <Container>
             <Row>
-              <hr className="line"/>
               <a href="https://github.com/michelletapham/michelletapham" target="_blank">made with ♡</a>
             </Row>
         </Container>

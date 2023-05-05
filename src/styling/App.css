@@ -102,42 +102,13 @@ header {
     padding-bottom: 1em;
 }
 
-
-.currents {
-    margin-top: 5em;
-
-}
-
-.currents .content {
-    background-color: #f6f5f4;
-    border-radius: 0.5em;
-    padding: 4em 5em 4em 5em;
-    margin-top: 3em;
-}
-
-.currents .content a, .about .content .subtext {
+.about .content .subtext {
     color: black;
     text-decoration: none;
 }
 
-.currents .content .col-1, .currents .content .col-2 {
-    max-height: 25em;
-}
-  
-.currents .content .col-2 {
-    overflow: auto;
-}
-
-.currents .content h1, .currents .content h2  {
-    font-weight: bold;
-}
-
-.currents .content .row {
-    padding-bottom: 2.5em;
-}
-
 .about .content {
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 .about .socials .social-icon {
@@ -171,8 +142,8 @@ header {
 }
 
 .footer {
-    padding-top: 6em;
-    padding-bottom: 1em;
+    padding-top: 7em;
+    padding-bottom: 2.5em;
     font-size: 12px;
     text-align: center;
 }
@@ -181,9 +152,6 @@ header {
     color:pink;
 }
 
-.footer .line {
-    color: black;
-}
 
 @keyframes fadeInUp {
     0% {
