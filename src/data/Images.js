@@ -17,6 +17,7 @@ import NanasOuting from '../assets/photography/nanas-outing.jpeg';
 import Rhos from '../assets/photography/rho-gals.jpeg';
 import Sam2 from '../assets/photography/sam-2.jpeg';
 import Sam from '../assets/photography/sam.jpeg';
+import Smrithi from '../assets/photography/smrithi.jpeg'
 import Sehe from '../assets/photography/sehe.jpg';
 import Sunset from '../assets/photography/sunset.jpeg';
 import Tommy from '../assets/photography/tommy.jpeg';
@@ -25,12 +26,12 @@ import Tommy from '../assets/photography/tommy.jpeg';
 
 const Images = [
     {
-        img: AmazonSpheres,
-        title: "Inside Amazon Spheres"
-    },
-    {
         img: GasWorks,
         title: "Tara's family at Gas Works Park"
+    },
+    {
+        img: AmazonSpheres,
+        title: "Inside Amazon Spheres"
     },
     {
         img: AudreyJustin,
@@ -53,24 +54,24 @@ const Images = [
         title: "Catherine"
     },
     {
-        img: Brosemite,
-        title: "Brosemite at Graduation"
+        img: DaphneSai,
+        title: "Daphne and Sai"
+    },
+    {
+        img: Evelyn,
+        title: "Evelyn"
     },
     {
         img: Dena,
         title: "Dena"
     },
     {
-        img: DaphneSai,
-        title: "Daphne and Sai"
-    },
-    {
         img: Beach,
         title: "Beach - 2019"
     },
     {
-        img: Evelyn,
-        title: "Evelyn"
+        img: Smrithi,
+        title: "Smrithi Graduation"
     },
     {
         img: Sam2,
@@ -79,6 +80,10 @@ const Images = [
     {
         img: LenaSarahSmrithi,
         title: "Lena, Sarah, Smrithi at Graduation"
+    },
+    {
+        img: Brosemite,
+        title: "Brosemite at Graduation"
     },
     {
         img: Sehe,

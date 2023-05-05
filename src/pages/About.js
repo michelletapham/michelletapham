@@ -1,13 +1,14 @@
 import React, { PureComponent } from "react";
+import { TypeAnimation } from "react-type-animation";
+import { SocialIcon } from 'react-social-icons';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from "../components/Header";
+import Currents from "./Currents";
 import Footer from "../components/Footer";
-import AboutPhoto from "../assets/michelle.jpg"
+import AboutPhoto from "../assets/michelle-cafe.jpg"
 import Signature from "../assets/signature.png"
-import { TypeAnimation } from "react-type-animation";
-import { Spotify } from "react-spotify-embed";
 
 
 export default class About extends PureComponent {
@@ -20,14 +21,19 @@ export default class About extends PureComponent {
             </Row>
             <Row className="content">
               <Col xl={5}>
-                <img className="about-photo" src={AboutPhoto} alt="Michelle" />
-                <br/>
-                <Spotify className="spotify" link="https://open.spotify.com/playlist/359q7MDjfHwdw3U8qXHucW?si=ce555728d4384a22" />
+                <Row>
+                  <img className="about-photo" src={AboutPhoto} alt="Michelle" />
+                </Row>
+                <Row className="socials">
+                  <SocialIcon bgColor="#AEC6CF" url="https://www.instagram.com/michelletapham/" target="_blank"/>
+                  <SocialIcon bgColor="#C1E1C1" url="https://open.spotify.com/user/12157815223?si=630cbaf6346a411f" target="_blank"/>
+                  <SocialIcon bgColor="#FF6961" url="https://www.youtube.com/channel/UCeS_o8q8eJHiSE9phvcbp2Q" target="_blank"/>
+                </Row>
               </Col>
               <Col xl={7}>
                 <Row className="bio">
                   <h2><span role="img" aria-label="handwave-emoji">👋🏼</span> Hello ... Michelle here!</h2>
-                  <p className="subtext">(brownie points if you understood that reference)</p>
+                  <a className="subtext" href="https://www.youtube.com/watch?v=ouA-U4x17KY&ab_channel=Lelouch22229" target="_blank">(brownie points if you understood that reference)</a>
                   <p>
                     Who am I? Well I would say I'm a &nbsp;  
                     <TypeAnimation
@@ -48,22 +54,18 @@ export default class About extends PureComponent {
                       repeat={Infinity}
                     />
                   </p>
-                  <p>
-                    After 22 years growing up in Seattle, Washington, I left my hometown and my
-                    close friends/family to move down 1,100+ miles south and start over in Los Angeles, California. 
-                  </p>
-                  <p>
-                    I decided to create this website because I wanted to document my life, ongoing projects, unfiltered thoughts in 
-                    a low-pressure environment. If you somehow ended up here ... I see you peeping!
-                  </p>
+                  <p>Born and raised in Seattle, Washington and recent graduate from the University of Washington. Currently, I live in Los Angeles, California where I work for a music streaming service as a beep boop girly.</p>
+                  <p>In my free time, I like to read memoirs, perfect my espresso shot, play tennis, and watching slice of life animes and becoming more of a hopeless romantic.</p>
+                  <p>I wanted to create this website to document my life during this sudden period of change, my ongoing projects, and any unfiltered thoughts without the anxiety that comes along with posting on social media.</p>
                   <p>Have fun browsing! :)</p>
                   <img className="signature-img" src={Signature} alt="Signature"/>
-                  <i>
-                    P.S. I was originally going to build this website using Squarespace until I saw that price ($17/month).
-                    Instead, I decided to use my college degree to use and build this site out with React.js (shoutout INFO340 for the skills)!
-                  </i>
+                  <i>P.S. I was originally going to build this website using Squarespace until I saw that price ($17/month).
+                    Instead, I decided to use my college degree to use and build this site out with React.js (shoutout INFO340 for the skills)!</i>
                 </Row>
               </Col>
+            </Row>
+            <Row>
+              <Currents/>
             </Row>
             <Row>
               <Footer/>

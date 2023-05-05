@@ -17,7 +17,6 @@ export default function Header() {
             <Link to="/">home</Link>
             <Link to="/blog">blog</Link>
             <Link to="/photo">photo</Link>
-            <Link to="/currents">currents</Link>
             <Link to="/moodboard">moodboard</Link>
             <Link to="/about">about</Link>
           </Nav>

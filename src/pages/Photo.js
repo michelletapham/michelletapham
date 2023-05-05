@@ -1,12 +1,11 @@
 import React, { PureComponent } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Images from '../data/Images';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default class Photo extends PureComponent {
     render() {

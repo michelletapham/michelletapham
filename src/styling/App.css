@@ -2,12 +2,9 @@
     box-sizing: border-box;
 }
 
-.app {
-    padding: 5em 7em 2em 7em;
-}
-
-.header {
+header {
     text-align: center;
+    padding-top: 5em;
 }
 
 .header h4 {
@@ -22,11 +19,11 @@
     margin-bottom: 1em;
 }
 
-.header .button:hover {
+.header .button:hover, .about .socials .social-icon:hover {
     opacity: calc(.50);
 }
 
-.header .button {
+.header .button, .footer a {
     text-decoration: none;
     color: black;
 }
@@ -38,22 +35,23 @@
 }
 
 
-.navbar a:hover, .home .btn-enter:hover {
+.navbar a:hover, .home .btn-enter:hover, .currents .content a:hover {
     text-decoration: underline;
 }
 
-.navbar a:hover, .home .btn-enter:hover {
+.navbar a:hover, .home .btn-enter:hover, .currents .content a:hover, .about .content .subtext:hover {
     color: grey;
 }
 
 
 .home {
-    padding-top: 5.5em;
+    padding-top: 11em;
 }
 
 .home .home-header {
     padding-top: 7em;
     padding-bottom: 2em;
+    
 }
 
 .home .home-header h1, .about h2, .photo .header h4, .header h4 {
@@ -88,7 +86,7 @@
     margin-bottom: 0.5em;
 }
 
-.blog, .currents, .moodboard {
+.blog, .moodboard {
     text-align: center;
 }
 
@@ -104,13 +102,46 @@
     padding-bottom: 1em;
 }
 
-.about .content {
-    margin-top: 4em;
-    margin-bottom: -5em;
+
+.currents {
+    margin-top: 5em;
+
 }
 
-.about .bio {
-    margin-top: .5em;
+.currents .content {
+    background-color: #f6f5f4;
+    border-radius: 0.5em;
+    padding: 4em 5em 4em 5em;
+    margin-top: 3em;
+}
+
+.currents .content a, .about .content .subtext {
+    color: black;
+    text-decoration: none;
+}
+
+.currents .content .col-1, .currents .content .col-2 {
+    max-height: 25em;
+}
+  
+.currents .content .col-2 {
+    overflow: auto;
+}
+
+.currents .content h1, .currents .content h2  {
+    font-weight: bold;
+}
+
+.currents .content .row {
+    padding-bottom: 2.5em;
+}
+
+.about .content {
+    margin-top: 4em;
+}
+
+.about .socials .social-icon {
+    margin-right: 1em;
 }
 
 .about .signature-img {
@@ -122,39 +153,36 @@
 
 .about .content .subtext {
     font-size: 12px;
+    margin-bottom: 2em;
+
+}
+
+.about .socials {
+    justify-content: center;
+    margin-top: 1em;
+    height: 3em;
 }
 
 .about .about-photo {
     height: auto;
-    width: 28em;
-    object-fit: cover;
-    border-radius: 1%;
-}
-
-.about .spotify {
-    width: 28em;
-    height: 18em;
-    display: block;
-}
-
-.about .about-photo, .about .spotify {
-    margin: auto;
+    width: 21em;
     display: flex;
+    margin: auto;
 }
 
 .footer {
-    padding-top: 5em;
+    padding-top: 6em;
+    padding-bottom: 1em;
     font-size: 12px;
     text-align: center;
 }
 
-.footer a {
-    text-decoration: none;
-    color: black;
-}
-
 .footer a:hover {
     color:pink;
+}
+
+.footer .line {
+    color: black;
 }
 
 @keyframes fadeInUp {
