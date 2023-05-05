@@ -4,9 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import AboutPhoto from "../assets/about-photo.jpg"
+import AboutPhoto from "../assets/michelle.jpg"
 import Signature from "../assets/signature.png"
 import { TypeAnimation } from "react-type-animation";
+import { Spotify } from "react-spotify-embed";
 
 
 export default class About extends PureComponent {
@@ -18,10 +19,12 @@ export default class About extends PureComponent {
               <Header/>
             </Row>
             <Row className="content">
-              <Col lg={5}>
+              <Col xl={6}>
                 <img className="about-photo" src={AboutPhoto} alt="Michelle" />
+                <br/>
+                <Spotify className="spotify" link="https://open.spotify.com/playlist/359q7MDjfHwdw3U8qXHucW?si=ce555728d4384a22" />
               </Col>
-              <Col lg={7}>
+              <Col xl={6}>
                 <Row className="bio">
                   <h2><span role="img" aria-label="handwave-emoji">👋🏼</span> Hello ... Michelle here!</h2>
                   <p className="subtext">(brownie points if you understood that reference)</p>
