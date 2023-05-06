@@ -339,11 +339,11 @@ header {
 
     .home .home-video {
         width: auto;
-        height: 22em;
+        height: 20em;
     }
 
     .home .content .header {
-        margin-left: 0em;
+        margin-left: -2em;
     }
 
     .home .content .enter {
@@ -352,5 +352,13 @@ header {
 
     .home .content .btn-enter {
         margin-left: 2em;
+    }
+
+    .message .totoro {
+        height: 200px;
+    }
+
+    .about .content .bio {
+        padding-left: 1em;
     }
 }
