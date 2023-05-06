@@ -94,10 +94,18 @@ header {
 
 .home .content .header {
     margin-bottom: 2em;
+    overflow: visible;
+    white-space: nowrap;
 }
 
 .home .enter {
     text-align: end;
+}
+
+.home .content .btn-enter {
+    margin-left: 2em;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .home .spinner {
@@ -296,12 +304,13 @@ header {
 }
 
 @media (max-width: 768px) {
+
     .home {
         padding-top: 5em;
     }
 
     .home .content .header {
-        margin-top: -4em;
+        margin-top: -5em;
         margin-left: 2em;
     }
 
@@ -319,5 +328,29 @@ header {
     
     .about .footer {
         padding-top: 5em;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .home {
+        margin-top: 3em;
+    }
+
+    .home .home-video {
+        width: auto;
+        height: 22em;
+    }
+
+    .home .content .header {
+        margin-left: 0em;
+    }
+
+    .home .content .enter {
+        margin-left: 10em;
+    }
+
+    .home .content .btn-enter {
+        margin-left: 2em;
     }
 }
