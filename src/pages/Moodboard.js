@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Spinner from 'react-bootstrap/Spinner';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import Header from "../components/Header";
@@ -8,15 +9,25 @@ import Footer from "../components/Footer";
 import MoodboardImages from '../data/MoodboardImages';
 
 export default class Moodboard extends PureComponent {
+    constructor(props) {
+        super(props)
+        this.state = {loading: true}
+    }
+    
+    componentDidMount(){
+    this.setState({loading: false})
+    }
+
     render() {
       return (
-        <div className="moodboard fadeInUp-animation">
+        <div className="moodboard">
             <Container>
                 <Row>
                     <Header />
                 </Row>
                 <Row className="content">
-                    <ImageList variant="masonry" cols={4} gap={10}>
+                    {this.state.loading ? <Spinner className="spinner" animation="grow"/> :
+                    <ImageList className="fadeInUp-animation" variant="masonry" cols={4} gap={10}>
                         {MoodboardImages.map((item) => (
                             <ImageListItem key={item.img}>
                             <img
@@ -28,6 +39,7 @@ export default class Moodboard extends PureComponent {
                             </ImageListItem>
                         ))}
                     </ImageList>
+                    }
                 </Row>    
                 <Row>
                     <Footer/>

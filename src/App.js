@@ -9,6 +9,7 @@ import Moodboard from "./pages/Moodboard.js";
 import About from "./pages/About";
 
 export default class App extends PureComponent {
+
   render() {
     return (
       <div className="app ">

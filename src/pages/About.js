@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { SocialIcon } from 'react-social-icons';
-import { Spotify } from "react-spotify-embed";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,25 +9,23 @@ import Footer from "../components/Footer";
 import AboutPhoto from "../assets/michelle-cafe.jpg"
 import Signature from "../assets/signature.png"
 
-
-
 export default class About extends PureComponent {
     render() {
       return (
-        <div className="about fadeInUp-animation">
+        <div className="about">
           <Container>
             <Row>
               <Header/>
             </Row>
-            <Row className="content">
+            <Row className="content fadeInUp-animation">
               <Col xl={5}>
                 <Row>
                   <img className="about-photo" src={AboutPhoto} alt="Michelle" />
                 </Row>
                 <Row className="socials">
-                  <SocialIcon bgColor="#AEC6CF" url="https://www.instagram.com/michelletapham/" target="_blank"/>
-                  <SocialIcon bgColor="#C1E1C1" url="https://open.spotify.com/user/12157815223?si=630cbaf6346a411f" target="_blank"/>
-                  <SocialIcon bgColor="#FF6961" url="https://www.youtube.com/channel/UCeS_o8q8eJHiSE9phvcbp2Q" target="_blank"/>
+                  <SocialIcon bgColor="#AEC6CF" url="https://www.instagram.com/michelletapham/" target="_blank" style={{ height: 40, width: 40 }}/>
+                  <SocialIcon bgColor="#C1E1C1" url="https://open.spotify.com/user/12157815223?si=630cbaf6346a411f" target="_blank" style={{ height: 40, width: 40 }}/>
+                  <SocialIcon bgColor="#FF6961" url="https://www.youtube.com/channel/UCeS_o8q8eJHiSE9phvcbp2Q" target="_blank" style={{ height: 40, width: 40 }}/>
                 </Row>
               </Col>
               <Col xl={7}>
@@ -56,8 +53,8 @@ export default class About extends PureComponent {
                     />
                   </p>
                   <p>Born and raised in Seattle, Washington and recent graduate from the University of Washington. Currently, I live in Los Angeles, California where I work for a music streaming service as a beep boop girly.</p>
-                  <p>In my free time, I like to read memoirs, perfect my espresso shot, play tennis, and watching slice of life animes and becoming more of a hopeless romantic.</p>
-                  <p>I wanted to create this website to document my life during this sudden period of change, my ongoing projects, and any unfiltered thoughts without the anxiety that comes along with posting on social media.</p>
+                  <p>In my free time, I like to read memoirs, perfect my espresso shot, play tennis, and watch slice of life anime (and becoming more of a hopeless romantic).</p>
+                  <p>I wanted to create this website to document my life during this period of change, ongoing projects, and my unfiltered thoughts without the anxiety that comes along with posting on social media.</p>
                   <p>Have fun browsing! :)</p>
                   <img className="signature-img" src={Signature} alt="Signature"/>
                   <i>P.S. I was originally going to build this website using Squarespace until I saw that price ($17/month).
