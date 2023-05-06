@@ -343,11 +343,11 @@ header {
     }
 
     .home .content .header {
-        margin-left: -2em;
+        margin-left: 0em;
     }
 
     .home .content .enter {
-        margin-left: 10em;
+        margin-left: 9em;
     }
 
     .home .content .btn-enter {
@@ -358,7 +358,12 @@ header {
         height: 200px;
     }
 
+    .about .about-photo {
+        width: 17em;
+    }
+
     .about .content .bio {
         padding-left: 1em;
+        padding-right: 1em;
     }
 }
