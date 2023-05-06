@@ -318,6 +318,10 @@ header {
         margin-left: 8em;
     }
 
+    .message .totoro {
+        height: 200px;
+    }
+
     .blog .content .blog-row .blog-preview {
         margin-left: 0em;
     }
@@ -326,13 +330,16 @@ header {
         font-size: 13px;
     }
     
+    .about .about-photo {
+        width: 17em;
+    }
+
     .about .footer {
         padding-top: 5em;
     }
 }
 
-@media (max-width: 390px) {
-
+@media (max-width: 700px) {
     .home {
         margin-top: 1em;
     }
@@ -352,14 +359,6 @@ header {
 
     .home .content .btn-enter {
         margin-left: 2em;
-    }
-
-    .message .totoro {
-        height: 200px;
-    }
-
-    .about .about-photo {
-        width: 17em;
     }
 
     .about .content .bio {
