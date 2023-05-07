@@ -1,5 +1,5 @@
 import React from "react";
-import Totoro from '../assets/totoro-sleeping.webp'
+import Totoro from '../assets/message/totoro-sleeping.webp';
 
 export default function Message() {
   return (

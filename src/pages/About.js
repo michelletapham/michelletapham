@@ -4,10 +4,10 @@ import { SocialIcon } from 'react-social-icons';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Header from "../components/Header";
+import Header from "../components/Navigation";
 import Footer from "../components/Footer";
-import AboutPhoto from "../assets/michelle-cafe.jpg"
-import Signature from "../assets/signature.png"
+import AboutPhoto from "../assets/about/michelle.jpg"
+import Signature from "../assets/about/signature.png"
 
 export default class About extends PureComponent {
     render() {
@@ -30,8 +30,10 @@ export default class About extends PureComponent {
               </Col>
               <Col xl={7}>
                 <Row className="bio">
-                  <h2><span role="img" aria-label="handwave-emoji">👋🏼</span> Hello ... Michelle here!</h2>
-                  <a className="subtext" href="https://www.youtube.com/watch?v=ouA-U4x17KY&ab_channel=Lelouch22229" target="_blank">(brownie points if you understood that reference)</a>
+                  <Row className="title">
+                    <h2><span role="img" aria-label="handwave-emoji">👋🏼</span> Hello ... Michelle here!</h2>
+                    <a className="subtext" href="https://www.youtube.com/watch?v=ouA-U4x17KY&ab_channel=Lelouch22229" target="_blank">(brownie points if you understood that reference)</a>
+                  </Row>
                   <p>
                     Who am I? Well I would say I'm a &nbsp;  
                     <TypeAnimation

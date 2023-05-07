@@ -7,8 +7,8 @@ import Spinner from 'react-bootstrap/Spinner';
 import { Link } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
 
-import totoroLoading from '../assets/totoro-loading.gif'
-import homeVideo from '../assets/home-video.mp4'
+import totoroLoading from '../assets/home/totoro-loading.gif'
+import homeVideo from '../assets/home/home-video.mp4'
 
 
 export default class Home extends PureComponent {

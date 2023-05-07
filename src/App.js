@@ -8,6 +8,8 @@ import Photo from "./pages/Photo";
 import Moodboard from "./pages/Moodboard.js";
 import About from "./pages/About";
 
+import HelloWorld from "./blog-posts/HelloWorld";
+
 export default class App extends PureComponent {
 
   render() {
@@ -19,6 +21,9 @@ export default class App extends PureComponent {
             <Route path='/photo' element={<Photo/>} />
             <Route path='/moodboard' element={<Moodboard/>} />
             <Route path='/about' element={<About/>} />
+        </Routes>
+        <Routes>
+          <Route path='/blog/hello-world/' element={<HelloWorld/>} />
         </Routes>
       </div>
     );

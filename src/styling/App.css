@@ -3,14 +3,8 @@
 }
 
 /* General Styling */
-.home .header h1, .about h2, .header h4 {
+.home .header h1, .about h2, .navigation h4 {
     font-weight: bold;
-}
-
-/* Spinner */
-.spinner {
-    display: block;
-    margin: auto;
 }
 
 /* MESSAGE */
@@ -26,17 +20,13 @@
 }
 
 
-/* HEADER */
-header {
+/* Navigation */
+.navigation {
     text-align: center;
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
-.header h4 {
-    margin-bottom: 0em;
-}
-
-.header .header-icon {
+.navigation .navigation-bar-icon {
     width: 8em;
     height: 8em;
     object-fit: cover;
@@ -44,22 +34,20 @@ header {
     margin-bottom: 1em;
 }
 
-.header .button:hover, .about .socials .social-icon:hover {
+.navigation .button:hover, .about .socials .social-icon:hover {
     opacity: calc(.50);
 }
 
-.header .button, .footer a {
+.navigation .button, .footer a {
     text-decoration: none;
     color: black;
 }
 
-/* NAV BAR */
 .navbar a {
     color: black;
     text-decoration: none;
     margin-right: .75em;
 }
-
 
 .navbar a:hover, .home .btn-enter:hover {
     text-decoration: underline;
@@ -108,10 +96,6 @@ header {
     white-space: nowrap;
 }
 
-.home .spinner {
-    margin-top: 11em;
-}
-
 .home .home-video {
     width: auto;
     height: 25em;
@@ -150,6 +134,18 @@ header {
     margin-top: 2em;
 }
 
+.blog .blog-row .blog-preview {
+    color: black;
+}
+
+.blog .blog-row .blog-preview .date {
+    color: #494F55;
+}
+
+.blog .blog-row .blog-preview h2 {
+    font-weight: bold;
+}
+
 
 .blog .blog-row .blog-preview-photo {
     width: 33em;
@@ -161,14 +157,23 @@ header {
 
 
 .blog .blog-row:hover {
-    opacity: calc(.50);
-    cursor: pointer;
+    opacity: calc(.70);
 }
 
 /* PHOTO */
-.photo .header {
+.photo .title {
     text-align: center;
+    margin-top: 1em;
     padding-bottom: 1em;
+}
+
+.photo .title h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.photo .title .highlight {
+    background-color: aliceblue;
 }
 
 /* MOODBOARD PAGE */
@@ -179,10 +184,6 @@ header {
 .moodboard .content {
     padding-top: 2em;
     padding-bottom: 2em;
-}
-
-.moodboard .spinner {
-    margin-top: 3em;
 }
 
 /* ABOUT PAGE */
@@ -287,15 +288,9 @@ header {
     .home .content .enter {
         margin-left: 4em;
     }
-    
-    .blog .content .blog-row .blog-preview-photo {
-        width: 30em;
-        height: 20em;
-        margin-bottom: 1em;
-    }
 
     .blog .content .blog-row .blog-preview {
-        margin-left: 6em;
+        margin-left: 7.5em;
     }
 
     .MuiImageList-root {
@@ -323,11 +318,7 @@ header {
     }
 
     .blog .content .blog-row .blog-preview {
-        margin-left: 0em;
-    }
-
-    .photo .header p {
-        font-size: 13px;
+        margin-left: 1em;
     }
     
     .about .about-photo {

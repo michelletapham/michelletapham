@@ -1,22 +1,13 @@
 import React, { PureComponent } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Spinner from 'react-bootstrap/Spinner';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import Header from "../components/Header";
+import Header from "../components/Navigation";
 import Footer from "../components/Footer";
 import MoodboardImages from '../data/MoodboardImages';
 
 export default class Moodboard extends PureComponent {
-    constructor(props) {
-        super(props)
-        this.state = {loading: true}
-    }
-    
-    componentDidMount(){
-    this.setState({loading: false})
-    }
 
     render() {
       return (
@@ -26,7 +17,6 @@ export default class Moodboard extends PureComponent {
                     <Header />
                 </Row>
                 <Row className="content">
-                    {this.state.loading ? <Spinner className="spinner" animation="grow"/> :
                     <ImageList className="fadeInUp-animation" variant="masonry" cols={4} gap={10}>
                         {MoodboardImages.map((item) => (
                             <ImageListItem key={item.img}>
@@ -39,7 +29,6 @@ export default class Moodboard extends PureComponent {
                             </ImageListItem>
                         ))}
                     </ImageList>
-                    }
                 </Row>    
                 <Row>
                     <Footer/>
