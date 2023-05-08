@@ -273,6 +273,10 @@
         padding-right: 3em;
         margin-top: 3em;
     }
+
+    .MuiImageList-root {
+        column-count: 3 !important;
+    }
 }
 
 @media (max-width: 992px) {
@@ -350,6 +354,16 @@
 
     .home .content .btn-enter {
         margin-left: 2em;
+    }
+
+    .blog .content .blog-row .blog-preview-photo {
+        width: 25em;
+        height: 15em;
+        margin-bottom: 1em;
+    }
+
+    .blog .content .blog-row h2 {
+        font-size: 1.25em;
     }
 
     .about .content .bio {
