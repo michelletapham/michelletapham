@@ -55,7 +55,7 @@ export default class About extends PureComponent {
                     />
                   </p>
                   <p>Born and raised in Seattle, Washington and recent graduate from the University of Washington. Currently, I live in Los Angeles, California where I work for a music streaming service as a beep boop girly.</p>
-                  <p>In my free time, I like to read memoirs, perfect my espresso shot, play tennis, and watch slice of life anime (and becoming more of a hopeless romantic).</p>
+                  <p>In my free time, I like to read memoirs, listen to <a href="https://www.youtube.com/watch?v=c0-hvjV2A5Y&ab_channel=BoilerRoom" target="_blank">Fred Again...'s boiler room set</a>, perfect my espresso shot, play tennis, and watch slice of life anime (and becoming more of a hopeless romantic).</p>
                   <p>I wanted to create this website to document my life during this period of change, ongoing projects, and my unfiltered thoughts without the anxiety that comes along with posting on social media.</p>
                   <p>Have fun browsing! :)</p>
                   <img className="signature-img" src={Signature} alt="Signature"/>

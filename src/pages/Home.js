@@ -2,7 +2,6 @@ import React, { PureComponent } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Spinner from 'react-bootstrap/Spinner';
 
 import { Link } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
@@ -12,23 +11,13 @@ import homeVideo from '../assets/home/home-video.mp4'
 
 
 export default class Home extends PureComponent {
-
-  constructor(props) {
-    super(props)
-    this.state = {loading: true}
-  }
-
-  componentDidMount(){
-    this.setState({loading: false})
-  }
-
     render() {
       return (
         <div className="home fadeInUp-animation">
           <Container>
             <Row>
               <Col lg={5}>
-                {this.state.loading ? <Spinner className="spinner" animation="grow"/> : <video className="home-video" src={homeVideo} autoPlay loop muted/>}
+                <video className="home-video" src={homeVideo} autoPlay loop muted/>
               </Col>
               <Col lg={7}>
                 <Row className="content">

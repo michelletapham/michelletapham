@@ -8,7 +8,7 @@ import Photo from "./pages/Photo";
 import Moodboard from "./pages/Moodboard.js";
 import About from "./pages/About";
 
-import HelloWorld from "./blog-posts/HelloWorld";
+import HelloWorld from "./blog-posts/Pilot";
 
 export default class App extends PureComponent {
 
@@ -23,7 +23,7 @@ export default class App extends PureComponent {
             <Route path='/about' element={<About/>} />
         </Routes>
         <Routes>
-          <Route path='/blog/hello-world/' element={<HelloWorld/>} />
+          <Route path='/blog/pilot/' element={<HelloWorld/>} />
         </Routes>
       </div>
     );
