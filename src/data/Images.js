@@ -17,6 +17,7 @@ import NanasOuting from '../assets/photography/nanas-outing.jpeg';
 import Rhos from '../assets/photography/rho-gals.jpeg';
 import Sam2 from '../assets/photography/sam-2.jpeg';
 import Sam from '../assets/photography/sam.jpeg';
+import Sam3 from '../assets/photography/sam-3.jpg';
 import Smrithi from '../assets/photography/smrithi.jpeg'
 import Sehe from '../assets/photography/sehe.jpg';
 import Sunset from '../assets/photography/sunset.jpeg';
@@ -52,6 +53,10 @@ const Images = [
     {
         img: Catherine,
         title: "Catherine"
+    },
+    {
+        img: Sam3,
+        title: "Sam again ... at a Rooftop"
     },
     {
         img: DaphneSai,

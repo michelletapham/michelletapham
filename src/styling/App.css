@@ -434,14 +434,26 @@
         margin-left: 2em;
     }
 
+    .blog-post .content .header .cover-photo {
+        width: 21em;
+        height: 15em;
+        margin: auto;
+        object-fit: cover;
+        padding: 1em 0em 2em 0em;
+    }
+    
     .blog .content .blog-row .blog-preview-photo {
-        width: 28em;
-        height: 17em;
+        width: 24em;
+        height: 13em;
         margin-bottom: 1em;
     }
 
-    .blog .content .blog-row h2 {
-        font-size: 1.25em;
+    .blog .blog-row .blog-preview .title, .blog-post .content .header .title {
+        font-size: 1.4em;
+    }
+
+    .blog-post .content .header .subtitle {
+        font-size: 0.7em;
     }
 
     .blog-post .content {

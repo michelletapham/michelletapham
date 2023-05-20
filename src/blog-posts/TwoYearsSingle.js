@@ -15,7 +15,9 @@ import Footer from "../components/Footer";
 
 export default class Pilot extends PureComponent {
     render() {
+        
         var quote = "I believe that guilt is adaptive and helpful—it’s holding something we’ve done or failed to do up against our values and feeling psychological discomfort.I define shame as the intensely painful feeling or experience of believing that we are flawed and therefore unworthy of love and belonging—something we’ve experienced, done, or failed to do makes us unworthy of connection. I don’t believe shame is helpful or productive. In fact, I think shame is much more likely to be the source of destructive, hurtful behavior than the solution or cure."
+        
         return (
             <div className="blog-post">
             <Container>
