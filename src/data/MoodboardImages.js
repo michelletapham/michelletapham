@@ -1,3 +1,4 @@
+import Horimiya from "../assets/moodboard/horimiya.jpeg";
 import Claire from "../assets/moodboard/claire.jpg";
 import Biking from "../assets/moodboard/biking.jpg";
 import PalmTrees from "../assets/moodboard/palm-trees.jpg"
@@ -7,7 +8,7 @@ import WorstHabitsInLove from "../assets/moodboard/WorstHabitsInLove.jpg"
 
 const MoodboardImages = [
     {
-        img: "https://pm1.narvii.com/6402/3c2aee9d416fd45c9baaf490db0ca8a8646c046c_hq.jpg",
+        img: Horimiya,
         title: "Horimiya"
     },
     {
