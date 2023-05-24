@@ -98,13 +98,10 @@ export default class Pilot extends PureComponent {
                             <h3>Dear 2021 Michelle</h3>
                             <p>
                                 It's cliché, but time truly heals all wounds. It's going to take some time and trial and error, but it'll be worth it at the end (I mean, look at where we are right now)! 
-                                Try your best to not be so hard on yourself for the sake of others. Just know that past you didn't know any better back then.  You're mistakening feelings of guilt with feelings of shame instead.
+                                Try to not be so hard on yourself because you didn't know any better back then given the information you had.
                             </p>
-                            <Quote quote={quote} author={"Brene Brown"}/>
                             <br/>
-                            <p> 
-                                Make sure to take care of yourself, surround yourself with good people, and give yourself permission to enjoy life too.
-                            </p>
+                            <p> I want to remind you to take care of yourself, surround yourself with good people, and give yourself permission to enjoy life too.</p>
                             <Video video={Sunset} subtitle={"admiring the sunset during my run :)"} isVertical={true}/>
                             <p>love,</p>
                             <p>you from the present</p>
