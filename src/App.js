@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Photo from "./pages/Photo";
-import Moodboard from "./pages/Moodboard.js";
 import About from "./pages/About";
 import Pilot from "./blog-posts/Pilot";
 import TwoYearsSingle from "./blog-posts/TwoYearsSingle";

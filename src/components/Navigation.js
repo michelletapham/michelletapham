@@ -16,7 +16,6 @@ export default function Navigation() {
             <Link to="/">home</Link>
             <Link to="/blog">blog</Link>
             <Link to="/photo">photo</Link>
-            <Link to="/moodboard">moodboard</Link>
             <Link to="/about">about</Link>
           </Nav>
         </Navbar>
