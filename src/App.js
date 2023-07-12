@@ -9,6 +9,7 @@ import Moodboard from "./pages/Moodboard.js";
 import About from "./pages/About";
 import Pilot from "./blog-posts/Pilot";
 import TwoYearsSingle from "./blog-posts/TwoYearsSingle";
+import CovidThoughts from "./blog-posts/CovidThoughts";
 
 
 export default class App extends PureComponent {
@@ -26,6 +27,7 @@ export default class App extends PureComponent {
         <Routes>
           <Route path='/blog/pilot' element={<Pilot/>} />
           <Route path='/blog/two-years-being-single' element={<TwoYearsSingle/>} />
+          <Route path='/blog/scattered-quarantine-thoughts' element={<CovidThoughts/>} />
         </Routes>
       </div>
     );
