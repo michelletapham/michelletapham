@@ -21,7 +21,6 @@ export default class App extends PureComponent {
             <Route path='/' element={<Home/>} />
             <Route path='/blog' element={<Blog/>} />
             <Route path='/photo' element={<Photo/>} />
-            <Route path='/moodboard' element={<Moodboard/>} />
             <Route path='/about' element={<About/>} />
         </Routes>
         <Routes>

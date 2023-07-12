@@ -228,16 +228,6 @@
     background-color: aliceblue;
 }
 
-/* MOODBOARD PAGE */
-.moodboard {
-    text-align: center;
-}
-
-.moodboard .content {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
 /* ABOUT PAGE */
 .about .content a {
     color: black;
