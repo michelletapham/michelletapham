@@ -3,7 +3,7 @@
 }
 
 /* General Styling */
-.home .header h1, .about h2, .navigation h4 {
+.about h2, .navigation h4 {
     font-weight: bold;
 }
 
@@ -55,11 +55,11 @@
     margin-right: .75em;
 }
 
-.navbar a:hover, .home .btn-enter:hover {
+.navbar a:hover {
     text-decoration: underline;
 }
 
-.navbar a:hover, .home .btn-enter:hover, .currents .content a:hover, .about .content a:hover {
+.navbar a:hover, .currents .content a:hover, .about .content a:hover {
     color: grey;
 }
 
@@ -75,52 +75,6 @@
     color:pink;
 }
 
-/* HOME */
-.home {
-    padding-top: 11em;
-    padding-bottom: 5em;
-}
-
-.home .content {
-    margin-top: 7em;
-    margin-right: 10em;
-}
-
-.home .content .header {
-    margin-bottom: 2em;
-    overflow: visible;
-    white-space: nowrap;
-}
-
-.home .enter {
-    text-align: end;
-}
-
-.home .content .btn-enter {
-    margin-left: 2em;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.home .home-video {
-    width: auto;
-    height: 25em;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-}
-
-.home .btn-enter {
-    color: black;
-    text-decoration: none;
-}
-
-.home .totoro-gif {
-    height: auto;
-    width: 80px;
-}
 
 /* BLOG PAGE*/
 .blog .blog-row {
@@ -294,17 +248,6 @@
 
 /* Styling for smaller screens */
 @media (max-width: 1200px) {
-    .home {
-        padding-top: 11em;
-    }
-
-    .home .content .header {
-        margin-left: 3em;
-    }
-
-    .home .content .enter {
-        margin-left: 10em;
-    }
 
     .blog .content .blog-row .blog-preview-photo {
         width: 30em;
@@ -334,18 +277,6 @@
 }
 
 @media (max-width: 992px) {
-    .home {
-        padding-top: 4em;
-    }
-
-    .home .content .header {
-        margin-top: -5em;
-        margin-left: 9em;
-    }
-
-    .home .content .enter {
-        margin-left: 4em;
-    }
 
     .blog .content .blog-row .blog-preview {
         margin-left: 7.5em;
@@ -357,19 +288,6 @@
 }
 
 @media (max-width: 768px) {
-
-    .home {
-        padding-top: 5em;
-    }
-
-    .home .content .header {
-        margin-top: -5em;
-        margin-left: 2em;
-    }
-
-    .home .content .enter {
-        margin-left: 8em;
-    }
 
     .blog .content .blog-row .blog-preview {
         margin-left: 1em;
@@ -403,27 +321,6 @@
 }
 
 @media (max-width: 700px) {
-    .home {
-        margin-top: 1em;
-    }
-
-    .home .home-video {
-        width: auto;
-        height: 20em;
-    }
-
-    .home .content .header {
-        margin-left: 0em;
-    }
-
-    .home .content .enter {
-        margin-left: 9em;
-    }
-
-    .home .content .btn-enter {
-        margin-left: 2em;
-    }
-
     .blog-post .content .header .cover-photo {
         width: 21em;
         height: 15em;

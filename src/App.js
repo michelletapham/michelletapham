@@ -2,7 +2,6 @@ import React, { PureComponent } from "react";
 import { Routes, Route } from "react-router-dom";
 import './styling/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Photo from "./pages/Photo";
 import About from "./pages/About";
@@ -17,8 +16,7 @@ export default class App extends PureComponent {
     return (
       <div className="app ">
         <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/blog' element={<Blog/>} />
+            <Route path='/' element={<Blog/>} />
             <Route path='/photo' element={<Photo/>} />
             <Route path='/about' element={<About/>} />
         </Routes>
