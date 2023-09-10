@@ -1,6 +1,13 @@
 
 const BlogPosts = [
     {
+        url: "23-years-old",
+        date: "August 11th, 2023",
+        title: "23 & me",
+        subtitle: "23 years, 23 lessons",
+        image: "https://i.pinimg.com/originals/92/3b/45/923b4501db395231f0e022628901f9a9.gif"
+    },
+    {
         url: "scattered-quarantine-thoughts",
         date: "June 24th, 2023",
         title: "Scattered thoughts from a social distanced girly~",

@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Pilot from "./blog-posts/Pilot";
 import TwoYearsSingle from "./blog-posts/TwoYearsSingle";
 import CovidThoughts from "./blog-posts/CovidThoughts";
+import TwentyThreeYearsOld from "./blog-posts/23YearOld";
 
 
 export default class App extends PureComponent {
@@ -24,6 +25,7 @@ export default class App extends PureComponent {
           <Route path='/blog/pilot' element={<Pilot/>} />
           <Route path='/blog/two-years-being-single' element={<TwoYearsSingle/>} />
           <Route path='/blog/scattered-quarantine-thoughts' element={<CovidThoughts/>} />
+          <Route path='/blog/23-years-old' element={<TwentyThreeYearsOld/>} />
         </Routes>
       </div>
     );
