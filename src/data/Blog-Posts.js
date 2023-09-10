@@ -8,6 +8,13 @@ const BlogPosts = [
         image: "https://i.pinimg.com/originals/92/3b/45/923b4501db395231f0e022628901f9a9.gif"
     },
     {
+        url: "how-to-not-peak-in-college-and-enjoy-postgrad-life",
+        date: "June 2023",
+        title: "michelle’s unofficial guide to *not* peak in college and enjoy life post-grad",
+        subtitle: "as someone that took an entire year to finally feel settled with this change",
+        image: "https://img.buzzfeed.com/buzzfeed-static/static/2017-08/22/11/asset/buzzfeed-prod-fastlane-02/anigif_sub-buzz-9124-1503414015-3.gif"
+    },
+    {
         url: "scattered-quarantine-thoughts",
         date: "June 24th, 2023",
         title: "Scattered thoughts from a social distanced girly~",
