@@ -1,6 +1,12 @@
 
 const BlogPosts = [
     {
+        url: "farewell-to-2023",
+        date: "December 2023",
+        title: "farewell to 2023",
+        image: "https://64.media.tumblr.com/61eef18fa1e69ad15e97ea1c00236243/93e5a36d93cb40c8-61/s540x810/89ef20fea77618a448f4b1cf5bb50f57c2ff4e00.gif"
+    },
+    {
         url: "23-years-old",
         date: "August 11th, 2023",
         title: "23 & me",
