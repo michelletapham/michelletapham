@@ -14,7 +14,7 @@ export default class FarewellTo2023 extends PureComponent {
               <Navigation/>
             </Row>
             <Row className="content fadeInUp-animation">
-                <BlogHeader date="December 2023" title="farewell to 2023" image="https://64.media.tumblr.com/61eef18fa1e69ad15e97ea1c00236243/93e5a36d93cb40c8-61/s540x810/89ef20fea77618a448f4b1cf5bb50f57c2ff4e00.gif" altText="Studio Ghibli Scenary"/>
+                <BlogHeader date="December 2023" title="the archives: farewell to 2023" image="https://64.media.tumblr.com/61eef18fa1e69ad15e97ea1c00236243/93e5a36d93cb40c8-61/s540x810/89ef20fea77618a448f4b1cf5bb50f57c2ff4e00.gif" altText="Studio Ghibli Scenary"/>
                 <div className="body">
                   <div className="section">
                     <p>2023 flew by so quick, yet so much has happened. If I were to explain to January Michelle everything that has happened the past 12 months, she would’ve been so shocked. All the new characters in my life, my life in la now, my shifting thoughts/views on things. The first half of 2023 was embracing all the major changes in my life and going through trial and error to find the people/places that made me uplifted. The second half of it was embracing the benefits going through these changes provided me. With any big change, you need to go through the bad to reach the good :)
