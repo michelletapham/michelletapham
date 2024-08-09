@@ -11,6 +11,8 @@ import CovidThoughts from "./blog-posts/CovidThoughts";
 import TwentyThreeYearsOld from "./blog-posts/23YearOld";
 import GuideToNotPeakInCollege from "./blog-posts/GuideToNotPeakingInCollege";
 import FarewellTo2023 from "./blog-posts/FarewellTo2023";
+import TwentyFourYearsOld from "./blog-posts/24YearsOld";
+
 
 
 export default class App extends PureComponent {
@@ -30,6 +32,7 @@ export default class App extends PureComponent {
           <Route path='/blog/23-years-old' element={<TwentyThreeYearsOld/>} />
           <Route path='/blog/how-to-not-peak-in-college-and-enjoy-postgrad-life' element={<GuideToNotPeakInCollege/>} />
           <Route path='/blog/farewell-to-2023' element={<FarewellTo2023/>} />
+          <Route path='/blog/24th-birthday' element={<TwentyFourYearsOld/>} />
         </Routes>
       </div>
     );
