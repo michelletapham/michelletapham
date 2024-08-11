@@ -11,6 +11,7 @@ import Birthday3 from "../assets/blog posts/24-years-old/bday_3.jpg";
 import Birthday4 from "../assets/blog posts/24-years-old/bday_4.jpg";
 import Birthday5 from "../assets/blog posts/24-years-old/bday_5.jpg";
 import Birthday6 from "../assets/blog posts/24-years-old/bday_6.jpg";
+import Birthday7 from "../assets/blog posts/24-years-old/bday_7.jpeg";
 
 export default class TwentyFourYearsOld extends PureComponent {
     render() {
@@ -27,6 +28,7 @@ export default class TwentyFourYearsOld extends PureComponent {
                     <p>Today, I turn 24! I don’t care what anyone says, 24 is still considered as yours early 20s. </p>
                     <Photo image={Birthday1} subtitle="Birthday Picnic with Friends, Santa Monica" altText="24rd Birthday" isVertical={true} />
                     <p>For my birthday this year, I kept it pretty wholesome yet eventful. A week before my birthday, my friends had surprised me with a picnic. My family was in town during that time, and it was their last evening in LA. For some reason, my brother was urging to go on a post-dinner walk at the Palisades Park in Santa Monica. I was complaining to him because we had been there before and there were better spots I wanted my parents to see, but he would not budge. At the same time, my friend Kenta suggested to play spikeball in Santa Monica, which I told him I wasn’t able to make as I wanted to spend time with family. However, when we arrived there, it seemed that my brother was in the loop and helping me get to the surprise birthday celebration my friends had planned. As the planner of the friend group, it was a bit interesting being on the other side, but nevertheless I’m so grateful for my friends and felt so loved. </p>
+                    <Photo image={Birthday7} subtitle="PR'd in the 10 mile!" altText="Birthday Run" isVertical={true} />
                     <p>To kick off the start my second half-marathon training, I decided to run 11 miles for my bday day (August 11th) from Playa Del Rey all the way to Hermosa Beach. </p>
                     <p>For my actual birthday, my friends surprised me with a day trip to Santa Barbara where we got wine drunk at the wineries and enjoyed a brief getaway from LA.</p>
                   </div>
@@ -46,7 +48,7 @@ export default class TwentyFourYearsOld extends PureComponent {
                   </div>
                   <div className="section">
                     <Photo image={Birthday5} subtitle="The struggles of modern dating" altText="Text Message" isVertical={false} />
-                    <p>I’ve also become less of a man hater this year (i’m joking .. unless?). For the first time in years, I felt ready to enter a relationship again. After a long healing journey, I finally felt secure with my life, myself, and my communities. However, dating in your 20s is hard. Everyone is at a different point of their lives, and there’s more ambiguity in what the future looks like. However, I learned to embrace the ambiguity. Life is too short to be waiting for the right time. If you like someone, shouldn’t that be enough? Unfortunately … the stars weren’t aligned for me this year. But that’s okay, because I rather be single then settle. Though, what I’ve learned this past year is that 1) I am capable to having genuine feelings for someone 2) to never assume what is other person is thinking, always be upfront with your intentions and 3) I’m over casual dating, I’m a simp at heart.</p>
+                    <p>I’ve also become less of a man hater this year (i’m joking .. unless?). For the first time in years, I felt ready to enter a relationship again. I for once felt secure with my life, myself, and my communities. However, dating in your 20s is hard. Everyone is at a different point of their lives, and there’s more ambiguity in what the future looks like. However, I learned to embrace the ambiguity. Life is too short to be waiting for the right time. If you like someone, shouldn’t that be enough? Unfortunately … the stars weren’t aligned for me this year. But that’s okay, because I rather be single then settle. Though, what I’ve learned this past year is that 1) I am capable to having genuine feelings for someone 2) to never assume where the other person is at, always be upfront with your intentions and 3) I’m over casual dating, let me simp (and have it reciprocated) </p>
                   </div>
                   <div className="section">
                     <p>A core learning of mine this year is to embrace the uncertainty of an outcome that comes with taking a risk. Of recent years, I’ve grown to be more guarded, making decisions out of fear. Fear of being hurt, wrong, or being judged by others. This only lead me to hold myself back. My mindset began to shift when I heard a snippet from a podcast. It went something along the lines of: </p>
