@@ -55,7 +55,7 @@ export default class TwentyFourYearsOld extends PureComponent {
                     <p>Instead of asking yourself “what do I want in life?”, ask yourself “what pain do I want to experience?”. Meaning, from those low moments you faced in your life, recognize and appreciate the learnings and growth you’ve experienced from it that are now fundamental to who you are today. </p>
                   </div>
                   <div className="section">
-                    <Photo image={Birthday6} subtitle="Thank you to my lovely friends who made my birthday so special this year" altText="Friends" isVertical={true} />
+                    <Photo image={Birthday6} subtitle="Thank you to my lovely friends who made my birthday so special this year" altText="Friends" isVertical={false} />
                     <p>23 was a great year. Cheers to another year of new adventures and growth!</p>
                     <p>love,</p>
                     <p>mich</p>
